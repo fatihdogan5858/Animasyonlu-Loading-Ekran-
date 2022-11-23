@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+*{
+    box-sizing: border-box;
+}
+body {
+
+    font-family: "rubik-moonrocks", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+.bg{
+    background: no-repeat center/cover url("park_travel_autumn_trees_orange_usa_brown_white-1091450.jpg!d");     /* resim no-repeat : tekrar etmesin center/cover: ortada bulunsun ve kaplasın çerçevelesin */
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vw;
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loading-text {
+    color: black;
+    font-size: 100px;
+}
